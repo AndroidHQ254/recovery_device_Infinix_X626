@@ -96,7 +96,7 @@ TW_NO_SCREEN_TIMEOUT := true
 TW_NO_BATT_PERCENT := false
 TW_SCREEN_BLANK_ON_BOOT := true
 
-TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone4/temp
+TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TW_USE_TOOLBOX := true
 
 # Excludes
